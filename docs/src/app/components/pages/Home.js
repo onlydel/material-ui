@@ -90,6 +90,11 @@ class HomePage extends Component {
             that Implement</span> <span style={styles.nowrap}>
             Google&apos;s Material Design</span>
           </h2>
+          <h2 style={styles.h2}>
+            Material-UI는 구글의 <span style={styles.nowrap}>
+            Material 디자인을 구현하는</span> <span style={styles.nowrap}>
+            일련의 React 컴포넌트 모음 입니다. </span>
+          </h2>
           <RaisedButton
             className="demo-button"
             label="Demo"
@@ -136,6 +141,13 @@ class HomePage extends Component {
         </a>. We're currently using it on a project at&nbsp;
         <a href="https://www.call-em-all.com/Careers">Call-Em-All</a> and plan on adding to it
         and making it better in the coming months.
+        <p />
+        Material-UI는
+        <a href="http://facebook.github.io/react/"> React</a> 와
+        <a href="https://www.google.com/design/spec/material-design/introduction.html">
+         Google의 Material Design</a>을 사랑하는 마음에서 탄생했습니다.
+         우리는 현재 <a href="https://www.call-em-all.com/Careers">Call-Em-All</a> 프로젝트에서
+         이 디자인을 사용하고 있으며 앞으로 더 추가 할 계획을 세우고 있습니다.
       </FullWidthSection>
     );
   }
@@ -188,6 +200,10 @@ class HomePage extends Component {
         <h3 style={styles.h3}>
           Want to help make this <span style={styles.nowrap}>project awesome? </span>
           <span style={styles.nowrap}>Check out our repo.</span>
+          <p />
+          <span style={styles.nowrap}>이 프로젝트를 </span>
+          멋지게 만드는 데 도움이 되기를 원하십니까?
+          <span style={styles.nowrap}>우리 repo를 확인하십시오.</span>
         </h3>
         <RaisedButton
           label="GitHub"
